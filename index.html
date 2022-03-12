@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstarp-->      
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+         <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/add41d1d6c.js" crossorigin="anonymous" ></script>
+
+    <!-- Dev Icoons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> 
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./img/logo.png" width="50" height="30" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">            
+            <li class="nav-item">
+              <a class="nav-link" href="#home"><i class="fa-solid fa-house"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">              
+              <a class="nav-link dropdown-toggle" href="#portfolio" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-box-archive"></i> My Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#portfolio">My Projects</a></li>                
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="project_BarterBook.html">Barter Books</a></li>
+                <li><a class="dropdown-item" href="project_Expense_Tracker.html">Expense Manager</a></li>
+                <li><a class="dropdown-item" href="project_DailyPlanner.html">Daily Planner</a></li>
+                <li><a class="dropdown-item" href="project_AuthApp.html">Authentication App</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#portfolio"><i class="fa-solid fa-box-archive"></i> My Projects</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#experience"><i class="fa-solid fa-file"></i> My Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="fa-solid fa-phone"></i> About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jumbotron Section -->
+    <div class="p-5 jumbotron-custom">
+      <div class=" container text-center">
+        <section
+          class="body-section p-3 p-lg-5 d-flex align-items-center"
+          id="about">
+          <div class="w-100 jumbotron-item">  
+            <h1 class="mb-0">
+              <span class="text-primary">Welcome</span> <br>
+              I'm
+            </h1>  
+            <h1 class="mb-0">
+              Vidusha
+              <span class="text-primary">Dilshan</span>
+            </h1>    
+            <p class="subheading mb-4 jumbotron-contact">              
+              36 Prairie creek Crescent · Brampton, Ontario, L6Y6C9 · (xxx) xxx-xxxx
+              <a href="mailto:vidushad97@gmail.com"> <p class="fs-4">vidushad97@gmail.com</p>  </a>
+            </p>           
+            <div class="social-icons">
+              <a href="https:/www.linkedin.com/in/vidusha-dilshan-42b5b1159">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/RoarshacH">
+                <i class="fab fa-github"></i>
+              </a>      
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="http://virlichsoftworks.wordpress.com">
+                <i class="fa-solid fa-blog"></i>
+              </a>                     
+            </div>
+          </div>
+        </section>
+      </div>
+   
+    </div>
+
+    <div class="container">
+      <!-- Work Experience Section -->
+      <section class="body-section p-3 p-lg-5 d-flex justify-content-center mb-2" id="experience">
+        <div class="w-100">
+          <h2 class="mb-3 text-center section-head-text">Experience</h2>
+          <div class="row">            
+            <div class="col col-md-6 mb-2">
+              <div class="card card-1 h-100"> 
+                <div class="section-item mb-2 mt-2">                  
+                    <h3 class="mb-0">Software Developer</h3>
+                    <div class="subheading mb-2 mt-2">Infor Nexus Services(Pvt) Ltd.  </div>
+                    <p>
+                      Worked as a developer on Infor Customer Portal and related databases while 
+                      Collaborating with multinational team.After some 6 months
+                      I strated to colaborate with the security team to run security scans and fix vulnerabilities                 
+                      <div class="section-date">
+                        <span>December 2020 - November 2021</span>
+                      </div>
+                    </p>
+                  </div>                
+                </div>
+              </div>
+
+              <div class="col col-md-6 mb-2">
+                <div class="card card-2 h-100"> 
+                  <div class="section-item mb-2 mt-2">
+                    <div>
+                      <h3 class="mb-0">IT Technician</h3>
+                      <div class="subheading mb-2 mt-2">PRESS</div>
+                      <p>Check and maintain and Troubleshoot computer hardware, 
+                        Evaluate, install, configure and manage software used in the company
+                        Design, develop and maintain the local network and ethernet connection
+                        Providing technical support to users                   
+                      </p>
+                      <div class="section-date">
+                        <span>November 2019 - November 2020</span>
+                      </div>
+                    </div>                   
+                  </div>
+                </div>
+              </div> 
+            </div>   
+            </div>           
+      </section>
+      <hr class="m-0" />
+
+    <!-- Education Section -->
+      <section class="body-section p-3 p-lg-5 d-flex justify-content-center">                         
+          <div class="w-100">
+            <h2 class="mb-3 text-center section-head-text">Education</h2>        
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card card-5 mb-2 mt-2 h-100">
+                  <div class="section-item">
+                    <div>
+                      <h3 class="mb-0">Georgian College, Barrie <i class="fa-solid fa-award"></i></h3>
+                      <div class="subheading mb-2 mt-2">Postgraduate Certificate</div>                      
+                      <div>Mobile Application Development </div>
+                      <p>Grade: pending</p>
+                    </div>
+                    <div class="section-date">
+                      <span >January 2022 - </span>
+                    </div>
+                </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 mb-4">
+                <div class="card card-4 mb-2 mt-2 h-100">
+                  <div
+                   class="section-item">
+                  <div>
+                    <h3 class="mb-0">Southampton Solent University <i class="fa-solid fa-graduation-cap"></i></h3>
+                    <div class="subheading mb-2 mt-2">Bachelor Of Science</div>
+                    <div>Software Engineering </div>
+                    <p>Grade: First Class Honors</p>
+                  </div>
+                  <div class="section-date">
+                    <span >February 2020 - January 2021</span>
+                  </div>
+                </div>
+                </div>
+              </div>         
+    
+              <div class="col-md-4 mb-4">
+                <div class="card card-5 mb-2 mt-2 h-100">
+                  <div
+                  class="section-item">
+                  <div>
+                    <h3 class="mb-0">British College Of Applied Sciences <i class="fa-solid fa-user-graduate"></i></h3>
+                    <div class="subheading mb-2 mt-2">Pearson BTEC Higher National Diploma</div>
+                    <div>Software Engineering</div>
+                    <p>Grade: Distinction in All Subjects</p>
+                  </div>
+                  <div class="section-date">
+                    <span >August 2018 - January 2020</span>
+                  </div>
+                </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 mb-4">
+                <div class="card card-3 mb-2 mt-2 h-100">
+                  <div
+                   class="section-item">
+                  <div>
+                    <h3 class="mb-0">Kingswood College - Kandy <i class="fa-solid fa-school"></i></h3>
+                    <div class="subheading mb-2 mt-2">GCE Advanced Level (English Medium)</div>
+                    <div>Mathematics Stream</div>
+                    <p>Grade: Pass</p>
+                  </div>
+                  <div class="section-date">
+                    <span >2014 - 2017</span>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card card-3 mb-2 mt-2 h-100">
+                  <div
+                   class="section-item">
+                  <div>
+                    <h3 class="mb-0">Jinaraja College - Kandy <i class="fa-solid fa-school"></i></h3>
+                    <div class="subheading mb-2 mt-2">GCE Ordinary Level (English Medium)</div>                
+                    <p>Grade: Pass</p>
+                  </div>
+                  <div class="section-date">
+                    <span >2003 - 2013</span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>                     
+        </div>
+      </section>
+      <hr class="m-0" /> 
+
+       <!-- My Skill Section -->        
+      <section class="body-section p-3 p-lg-5 d-flex justify-content-center" id="contact">
+          <div class="w-100">
+            <h2 class="mb-3 text-center section-head-text">About Me</h2>
+            <div class="row">          
+              <div class="col-md-4">
+                <img src="./img/faceOnlyPicture.jpg"  class="img-thumbnail img-responsive" alt="Profile Image">
+              </div>
+              <div class="col-md-6">  
+                <table class="table table-borderless custom-table fw-normal">                 
+                  <tbody>
+                    <tr>                      
+                      <td class="fw-bold">Name</td>
+                      <td>Vidusha DIlshan</td>
+                    </tr>
+                    <tr>                      
+                      <td class="fw-bold">Age</td>
+                      <td>23</td>                 
+                    </tr>
+                    <tr>                      
+                      <td class="fw-bold">Address</td>
+                      <td>Prairie creek Crescent, Brampton, Ontario</td>                 
+                    </tr>
+                    <tr>                      
+                      <td class="fw-bold">Email</td>
+                      <td>vidushad97@gmail.com</td>                 
+                    </tr>
+                    <tr>                      
+                      <td class="fw-bold">Mobile</td>
+                      <td>23g4r5the4e5</td>                 
+                    </tr>
+                  </tbody>
+                </table> 
+                <p class="text-center ">I’m Highly motivated hard working person who likes to accept challenges and achieve them. Punctuality and a deep understanding of 
+                  my specific field is also a prominent trait in me. I have been known to be logical in most situations. Finally, 
+                  I am determined to do well in things that I find challenging and conquer them....</p>      
+                  <hr class="m-0">
+                  <div class="bg-3 text-center">
+                    <h6 class="mt-2">Programming Languages &amp; Tools I'm proficent in</h6>
+                      <ul class="list-inline dev-icons"> 
+                        <li class="list-inline-item">
+                          <i class="fab devicon-java-plain"></i>
+                        </li>       
+                        <li class="list-inline-item">
+                          <i class="fab devicon-dot-net-plain"></i>  
+                        </li>             
+                        <li class="list-inline-item">
+                          <i class="fab devicon-python-plain"></i>
+                        </li>       
+                        <li class="list-inline-item">
+                          <i class="fab devicon-php-plain"></i>
+                        </li>         
+                        <li class="list-inline-item">
+                          <i class="fab fa-react"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <i class="fab devicon-laravel-plain"></i>
+                        </li>
+                        <li class="list-inline-item">
+                          <i class="fab devicon-git-plain"></i>
+                        </li>            
+                        <li class="list-inline-item">
+                          <i class="fab fa-node-js"></i>
+                        </li> 
+                        <li class="list-inline-item">
+                          <i class="fab devicon-mongodb-plain"></i>
+                        </li>    
+                        <li class="list-inline-item">
+                          <i class="fab devicon-firebase-plain"></i>
+                        </li>    
+                        <li class="list-inline-item">
+                          <i class="fab devicon-unity-original"></i>
+                        </li>        
+                        <li class="list-inline-item">
+                          <i class="fab devicon-tensorflow-original"></i>
+                        </li>   
+                        <li class="list-inline-item">
+                          <i class="fab devicon-arduino-plain"></i>
+                        </li>   
+                        <li class="list-inline-item">
+                          <i class="fab devicon-android-plain"></i>
+                        </li>   
+                        <li class="list-inline-item">
+                          <i class="fab devicon-apple-original"></i>
+                        </li>                    
+                        <li class="list-inline-item">
+                          <i class="fab fa-html5"></i>
+                        </li>            
+                        <!-- <li class="list-inline-item">
+                          <i class="fab devicon-spring-plain"></i>
+                        </li>                       -->
+                      </ul>                  
+                  </div>          
+              </div>
+            </div>                
+        </div>        
+        <br>           
+      </section>
+      <hr class="m-0" />
+      
+      <section class="body-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
+        <div class="w-100">
+          <h2 class="mb-3 text-center section-head-text">My Projects</h2>
+          <div class="row">            
+            <div class="col col-md-6 mb-2">
+              <a href="project_BarterBook.html" class="card-link">
+              <div class="card card-barter h-100"> 
+                <div class="section-item mb-2 mt-2">                  
+                    <h3 class="mb-0">Barter Books</h3>
+                    <div class="subheading mb-2 mt-2">Android -Java, Firebase</div>
+                    <p>
+                      Colaborative project during the MDEV program. I was the Scrom Master for the 1st 2
+                      Sprints. Used Android Studio and firebase integration to create the fully functional app that target SDK 28                                   
+                    </p>
+                  </div>                
+                </div>
+              </a>
+              </div>
+
+              <div class="col col-md-6 mb-2">
+                <a href="project_AuthApp.html" class="card-link">
+                  <div class="card card-AuthApp h-100"> 
+                    <div class="section-item mb-2 mt-2">                  
+                        <h3 class="mb-0">Authentication App</h3>
+                        <div class="subheading mb-2 mt-2">Android, Firebase, REST, Biomentrics  </div>
+                        <p> 
+                          ..........................                         
+                        </p>
+                      </div>                
+                    </div>
+                  </a>
+              </div>
+              
+              <div class="col col-md-6 mb-2">
+                <a href="project_DailyPlanner.html" class="card-link">
+                  <div class="card card-dailyplan h-100"> 
+                    <div class="section-item mb-2 mt-2">                  
+                        <h3 class="mb-0">Daily Planner</h3>
+                        <div class="subheading mb-2 mt-2">React Native, Fireabase </div>
+                        <p>
+                         ...................                                       
+                        </p>
+                      </div>                
+                    </div>
+                  </a>
+              </div>
+
+              <div class="col col-md-6 mb-2">
+                <a href="project_Expense_Tracker.html" class="card-link">
+                  <div class="card card-expense h-100"> 
+                    <div class="section-item mb-2 mt-2">                  
+                        <h3 class="mb-0">Expense Tracker</h3>
+                        <div class="subheading mb-2 mt-2">2 Native Android and IOS Apps</div>
+                        <p>
+                         .................
+                        </p>
+                      </div>                
+                    </div>
+                  </a>
+              </div>
+            </div>   
+          </div> 
+      </section>    
+    <!-- End of some of my work -->
+      
+    </div>
+    <!-- End of container -->     
+    <br />
+
+    <!-- This is the button on the side  -->
+    <a class="back-to-top" href="#"><i class="fa-solid fa-angles-up"></i></a>
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="container-fluid footer_my">
+        <div class="container text-center">                   
+        <div class="row"><p id="footer-copyright">Copyright SMV Dilshan &reg; </p></div>
+      </div>
+    </footer>
+
+    <!-- Get year -->
+    <script>document.getElementById('footer-copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+      
+     <!-- Bootstrap and other JavaScript Files - internet CDN links -->       
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>  
+  </body>
+</html>

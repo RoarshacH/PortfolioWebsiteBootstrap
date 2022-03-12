@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstarp-->      
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+         <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/add41d1d6c.js" crossorigin="anonymous" ></script>
+
+    <!-- Dev Icoons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> 
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./img/logo.png" width="50" height="30" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">            
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">              
+              <a class="nav-link dropdown-toggle" href="#portfolio" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-box-archive"></i> My Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">               
+                <li><a class="dropdown-item" href="project_BarterBook.html">Barter Books</a></li>
+                <li><a class="dropdown-item active" href="project_Expense_Tracker.html">Expense Manager</a></li>
+                <li><a class="dropdown-item" href="project_DailyPlanner.html">Daily Planner</a></li>
+                <li><a class="dropdown-item" href="project_AuthApp.html">Authentication App</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section"><i class="fa-solid fa-info"></i> About Project</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="#documentation"><i class="fa-solid fa-book"></i> Documentaion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#screens"><i class="fa-solid fa-mobile-screen-button"></i> Screens</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jumbotron Section -->
+    <div class="p-5 jumbotron-custom">
+      <div class=" container text-center">
+        <section
+          class="body-section p-3 p-lg-5 d-flex align-items-center"
+          id="about">
+          <div class="w-100 jumbotron-item">  
+            <h1 class="mb-0">
+              <span class="text-primary">Expense Tracker</span> <br>       
+            </h1>  
+            <h1 class="mb-0">
+              Native Android - Kotlin , Native IOS -Swift             
+            </h1>    
+            <p class="subheading mb-4 jumbotron-contact">              
+              Details Here 
+              <br>
+              <a target="_blank" href="https://github.com/Brij15/BarterBook">
+                <i style="color: var(--text-light)" class="fab fa-github"></i>
+              </a>              
+            </p>           
+          </div>
+        </section>
+      </div>
+   
+    </div>
+
+    <div class="container">
+                  
+    <!-- Details Section -->
+      <section class="body-section p-3 p-lg-5 d-flex justify-content-center" id="about-section">                         
+          <div class="w-100">
+            <h2 class="mb-3 text-center section-head-text">About</h2>
+
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <p>Manage your finances with the Expenses Tracker. You can add all the daily expenses, your income and see reports 
+                  of your expenses daily, weekly, monthly. This will help you manage your expenses and rethink how you spend. 
+                  This is a simple and light app with user friendly interface that allows the user to add expenses quickly and intuitively. 
+                  This app will target its main audience of working adults in Ontario Canada who are in between the ages 18 to 65. </p>             
+              </div>
+              <div class="col-md-1">
+
+              </div>
+              <div class="col-md-2">
+                <img class="img-fluid rounded" src="./img/projects/expenses_tracker/Expense Tracker-logos_black.png" alt="Wireframe Home" >
+              </div>              
+            </div>
+                 
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="card card-userIcon mb-2 mt-2 h-100">
+                  <div class="section-item">
+                    <div>
+                      <h3 class="mb-0">Roles - Developer, UI UX Design</h3>
+                      <div class="subheading mb-2 mt-2">Group Project for Studies</div>                      
+                      <div>This is a grpup project I worked on during my postgraduate certificate course. </div>                      
+                    </div>                   
+                </div>
+                </div>
+              </div>
+    
+              <div class="col-md-6 mb-4">
+                <div class="card card-userTechnical mb-2 mt-2 h-100">
+                  <div
+                   class="section-item">
+                  <div>
+                    <h3 class="mb-0">App Information</h3>
+                    <div class="subheading mb-2 mt-2"> ....  </div>                    
+                    <p>Native Android App</p>
+                    <p>Native IOS App</p>
+                    <p>Persistence Storage</p>
+                    <p>Follows MVC Architecture</p>                                    
+                  </div>
+                  <div class="section-date">
+                    <span >February 2022 - </span>
+                  </div>
+                </div>
+                </div>
+              </div>         
+              
+            </div>                     
+        </div>
+      </section>
+      <hr class="m-0" /> 
+
+      <section class="body-section p-3 p-lg-5 d-flex align-items-center" id="documentation">
+        <div class="w-100">
+          <h2 class="mb-3 text-center section-head-text">Documantation</h2>        
+          <div class="row justify-content-center">
+            <div class="col-md-8 mb-4 text-center">
+              <h5>App Has the following functionalities </h5> 
+              <ul class="list-group list-group-flush">                
+                <li class="list-group-item">Users can Add and Modify, Delete Their Income Items </li>
+                <li class="list-group-item">Users can Add, Modify, Delete Their Expenses</li>
+                <li class="list-group-item">Users Can Add the Expense Type, Description and the Expense Amount for each Income Item</li>
+                <li class="list-group-item">Users Can Add the Income Type, Description, and the Income Amount for each Expense Item</li>
+                <li class="list-group-item">Users can Track Tax (Sales Tax, Income Tax - Canadian)</li>
+                <li class="list-group-item">Users can Get Their Daily, Weekly, Monthly, Yearly Expense Reports and Analytics</li>
+                <li class="list-group-item">Users can get Automatically generated Income Tax and Sales tax for Income and Expense Items</li>
+              </ul>           
+            </div>                
+            <div class="col-md-4 mb-4 text-center">
+              <h5>Class Diagram</h5> 
+              <img class="img-fluid rounded" src="./img/projects/expenses_tracker/ClassDiagram.png" alt="Class Diagram" >            
+            </div>       
+          </div>
+          <br>
+          <div class="row">
+            <h3 class="mb-3 text-center">Design Diagrams</h3>       
+            <div class="col-md-6 mb-4 text-center">
+              <h5>Information Architecture</h5> 
+              <img class="img-fluid rounded" src="./img/projects/expenses_tracker/InformationArchetecture.jpg" alt="Information Architecture" >            
+            </div>
+            <div class="col-md-6 mb-4 text-center">
+              <h5>Interface Design</h5> 
+              <img class="img-fluid rounded" src="./img/projects/expenses_tracker/ControlFlow.png" alt="Interface Design" >            
+            </div>
+          </div>
+
+        </div>
+      </section>    
+      <!-- End of documantaion -->
+      <hr class="m-0" /> 
+      <section class="body-section p-3 p-lg-5 d-flex align-items-center" id="screens">
+        <div class="w-100">
+          <h2 class="mb-3 text-center section-head-text">UI Screens</h2>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+           
+            <div class="col-md-3 mb-4 text-center other-card">              
+              <h5>Home Screen</h5> 
+              <img src="./img/projects/expenses_tracker/Screen Home.png" class="card-img-top" alt="...">          
+            </div>
+            <div class="col-md-3 mb-4 text-center other-card">
+              <h5>Add Income</h5> 
+              <img src="./img/projects/expenses_tracker/ScreenAddIncome.png" class="card-img-top" alt="...">          
+            </div>
+            <div class="col-md-3 mb-4 text-center other-card">
+              <h5>Expenses Screen</h5> 
+              <img src="./img/projects/expenses_tracker/ScreenExpenses.png" class="card-img-top" alt="...">        
+            </div>
+            <div class="col-md-3 mb-4 text-center other-card">
+              <h5>Analytics Screen</h5> 
+              <img src="./img/projects/expenses_tracker/ScreenAnalytics.png" class="card-img-top" alt="...">          
+            </div>          
+            
+          </div>
+        </div>
+      </section>        
+      <!-- End of Screens -->
+    </div>
+    <!-- End of container -->     
+    <br />
+
+    <!-- This is the button on the side  -->
+    <a class="back-to-top" href="#"><i class="fa-solid fa-angles-up"></i></a>
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="container-fluid footer_my">
+        <div class="container text-center">                   
+        <div class="row"><p id="footer-copyright">Copyright SMV Dilshan &reg; </p></div>
+      </div>
+    </footer>
+
+    <!-- Get year -->
+    <script>document.getElementById('footer-copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+      
+     <!-- Bootstrap and other JavaScript Files - internet CDN links -->       
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>  
+  </body>
+</html>
