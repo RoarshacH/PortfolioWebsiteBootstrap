@@ -51,6 +51,10 @@ section.body-section .section-item .section-date {
   min-width: none;
 }
 
+.section-item p {
+  padding-right: 1rem;
+}
+
 .bg-primary {
   background-color: var(--text-dark) !important;
 }
