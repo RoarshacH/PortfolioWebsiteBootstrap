@@ -49,8 +49,12 @@
               <a class="nav-link" href="#experience"><i class="fa-solid fa-file"></i> My Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact"><i class="fa-solid fa-phone"></i> About Me</a>
+              <a class="nav-link" href="#contact"><i class="fa-solid fa-info"></i> About Me</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" >
+                <i class="fa-solid fa-phone"></i> Contact Me</a>
+            </li>            
           </ul>
         </div>
       </div>
@@ -460,6 +464,52 @@
         <div class="row"><p id="footer-copyright">Copyright&reg; SMV Dilshan </p></div>
       </div>
     </footer>
+
+</div>
+
+
+
+<!-- The Contact Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">Contact Me</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="container">       
+          <form>                    
+            <div class="mb-3 form-group">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-control" id="name" type="text" placeholder="Name" />              
+            </div>                
+            <div class="mb-3 form-group">
+              <label class="form-label" for="emailAddress">Email Address</label>
+              <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"/>              
+            </div>
+                    
+            <div class="mb-3 form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>              
+            </div> 
+            
+            <div class="form-group row">              
+              <button class="btn btn-primary col-lg-6" style="background-color: var(--text-dark);" type="submit">Send Message</button>              
+              <button type="button" class="btn btn-danger col-lg-6" style="background-color: var(--dark-background);" data-bs-dismiss="modal">Cancel</button>
+                
+              </div>
+            </div>
+                  
+          </form>
+        
+        </div>
+      </div>      
+
+    </div>
+  </div>
 
     <!-- Get year -->
     <script>document.getElementById('footer-copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
